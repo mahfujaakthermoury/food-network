@@ -1,0 +1,113 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#header{
+    display: flex;
+    background-image:
+     url(images/shapes/bac.png);
+     background-repeat: no-repeat; 
+     margin-bottom: 10%;
+    
+}
+.header-part{
+    width: 50%;
+    padding-left: 5%;
+}
+.text-color{
+    color:rgb(54, 181, 240) ;
+}
+a{
+    color: white;
+}
+.link-color{
+    padding: 10px 40px;
+    text-decoration: none;
+    background-image:
+     linear-gradient(rgb(105, 213, 228),rgb(46, 80, 190));
+     border-radius: 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+.header-part img{
+    width: 100%;
+
+}
+
+#about-me{ 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image:
+     url(images/shapes/bac1.jpg);
+      background-repeat: no-repeat;
+      background-position:cover;
+}
+.about-me-part{
+width: 50%;
+padding-left:5%;
+}
+.about-me-part img{
+    
+width: 60%;
+height:100%;
+background-image:
+     url(images/female/PersonImage.png);
+      background-repeat: no-repeat;
+      background-position: right;
+}
+
+#our-recipies{
+    
+text-align: center;
+height: 50%;
+}
+
+.recipie-title-part{
+
+    padding: 0% 5%;
+}
+ .recipie-title{
+        float: left;
+         width: 26%;
+         text-align: left;
+         margin: 2%;
+         border-radius:25px;
+        border: 15px solid rgb(253, 251, 251);
+        box-shadow:4px 5px 10px  rgb(167, 167, 167);
+        margin-bottom: 5%;
+}
+#details{
+    display: flex;
+    height: 20%;
+    width: 85%;
+    margin:0% 7% ;
+    box-shadow:3px 5px 10px  rgb(167, 167, 167);
+}
+#details div{
+    width: 100%;
+    padding-left:110px ;
+    background-color: whitesmoke;
+    
+}
+
+
+footer{
+    margin-top:5% ;
+    padding-top: 2%;
+    padding-bottom:5%;
+    text-align: center;
+    background-color:black;
+}
+ .text1{
+    color:rgba(69, 144, 241, 0.979);
+}
+.text2{
+    color: grey;
+}
+.text3{
+    color:white;
+}
